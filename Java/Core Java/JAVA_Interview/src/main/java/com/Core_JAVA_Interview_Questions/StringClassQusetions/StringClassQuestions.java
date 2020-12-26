@@ -28,8 +28,8 @@ public class StringClassQuestions {
 		 * 
 		 * Where exactly string constant pool is located in the memory?
 		 * 
-		 * Ans: Inside the heap memory. JVM reserves some part of the heap memory to store
-		 * string objects created using string literals.
+		 * Ans: Inside the heap memory. JVM reserves some part of the heap memory to
+		 * store string objects created using string literals.
 		 */
 
 		// Difference between String , String Buffer & String Builder
@@ -78,6 +78,31 @@ public class StringClassQuestions {
 		 * 8.] toString() Method : toString() method is overrided in all three classes.
 		 * You can also convert StringBuffer and StringBuilder objects to String type by
 		 * calling toString() method on them.
+		 * 
+		 * 
+		 * toCharArray() method: convert given string to char array
+		 * 
+		 * Why strings have been made immutable in java?
+		 * 
+		 * a) Immutable strings increase security. As they can’t be modified once they
+		 * are created, so we can use them to store sensitive data like username,
+		 * password etc.
+		 * 
+		 * b) Immutable strings are thread safe. So, we can use them in a multi threaded
+		 * code without synchronization.
+		 * 
+		 * c) String objects are used in class loading. If strings are mutable, it is
+		 * possible that wrong class is being loaded as mutable objects are modifiable.
+		 * 
+		 * What do you think about string constant pool? Why they have provided this
+		 * pool as we can store string objects in the heap memory itself?
+		 * 
+		 * String constant pool increases the reusability of existing string objects.
+		 * When you are creating a string object using string literal, JVM first checks
+		 * string constant pool. If that object is available, it returns reference of
+		 * that object rather creating a new object. This will also speed up your
+		 * application as only reference is returned and also saves the memory as no two
+		 * objects with same content are created.
 		 */
 
 	}
