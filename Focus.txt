@@ -5,3 +5,50 @@ Learn and practice multi-threading (specially executors and thread pools). Creat
 Try out writing some tricky SQL queries etc. Read about joins, indexes and their syntax.
 OOPs concepts are expected from you as well. Prepare your own definition and memorize it.
 I think, rest of the things will be technologies which you will mention in your resume.
+
+
+
+50% - Core JAVA 
+Core java -:
+Encapsulation vs abstraction
+Interfaces
+polymorphism -> method overloading vs overriding
+static block, static modifier
+String Class  - String Builder, Buffer difference, Why immutable, Built in methods examples  -- Very Important
+Object Class - hascode & equals method, why we need to override hascode & equals method What is the reason behind it?
+Access modifiers- public protected default private
+Collections - Hashmap working
+Java 8 features
+Exception Handling -> User defined exception , try-catch-finally , throw vs throws
+MultiThreading ->deadlock , racecondition , wait & sleep  difference, 
+
+
+Advance JAVA - [5-10] %
+JSP Servlets Lifecycle  & difference between
+Forward & Redirect
+JSP expression directories
+
+Frameworks- [30%]
+Spring/Spring Boot
+Spring Modules
+Dependency Injection (D.I)
+AOP
+Spring MVC Flow
+Spring Security
+Transaction Management
+Spring with Hibernate Integration
+Hibernate Flow , Framework concept
+
+
+Webservices Concept  {SOAP/REST}
+Servers: Tomcat, Weblogic
+Build Tool : Maven , ANT
+Version Control Used: SVN , GitHub, Bitbucket
+Design Pattern - 3-4 patterns ready which used?
+JUnit Testing & Mockito 
+
+
+
+
+
+
