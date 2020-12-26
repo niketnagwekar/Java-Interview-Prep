@@ -1,0 +1,189 @@
+1. Java design patterns
+2. How to create singleton obj
+3. What if the singleton object is cloned ?               How to stop it from failing ?
+4. Spring boot internal function / spring flow
+5. @autowired types 
+6. @qualifier 
+7. Why jpa ? Why not crud repository
+8. How to write query in jpa
+9. Diff between output writer vs buffered writer
+10. Hashmap internal working
+11. Angular life cycle hooks
+12. Routing reuse component
+13. How to display child in parent tags
+14. How to clone object in angular
+15. Auth guide
+16. Jvm internal elements
+17. Where is method signature stored in jvm
+18. Criteria to store a class as hasmap key
+19. Springboot dependencies
+20. Why lambda expressions better
+21. Streams
+22. Command line args xmn xms 
+23. Whats new in java 1.8
+24. Marker interfaces
+25. Diff bw arraylist and linkedlist 
+26. Find longest possible route in matrix
+27. Springboot default security
+28. If user hits any controller url, how to authenticate him ? (Security)
+29. Svn vs git 
+30. BOM in maven
+31. Spring mvc vs springboot
+32. Factory pattern
+33. Json vs xml
+34. Rest vs soap **
+35. Spring process
+36. Best way to configure database url during building project
+37. Spring security user registration
+38. Amazon aws cloud
+39. Log user session time
+40. How to apply single sign on
+41. What are microservices
+42. Application vs microservices
+43. What are web services
+44. Multipart in html
+45. Hashmap
+46. What is a servlet
+47. In which method is a servlet initialised
+48. Jpa
+49. Static method
+50. Group by in sql
+51. 'having' in sql
+52. How to create immutable class
+53. Dependency injection
+54. Oops concepts
+55. Association, aggregation and composition in java
+56. If parent class has private method hello() and child has public method hello() and if P p = new C(); is done and then p.hello() is called, which one is actually called ? 
+57. Similarly if parent has static method hello() and child has public hello() and P p = new C() and p.hello(). Which one is actually called ?
+58. Can we override static method ?
+59. Overriding vs overloading
+60. Polymorphism
+61. Encapsulation
+62. Arraylist vs linkedlist
+63. Hashmap vs treemap
+64. Kafka
+65. Why is REST stateless ?
+66. Spring data query creation from methods (eg how is query created from findByName)
+67. SQL types of joins
+68. JPA how to write query if it is going to change dynamically i.e. for eg columns are going to increase
+69. SQL order of execution of keywords
+70. find second highest count in column in table
+71. Thread pool
+72. Select distinct(a) , b, c from table. What will happen ?
+73. Reverse string without using methods of String
+74. Java inheritance diamond problem
+75. Swap 2 variable values without using third variable
+76. Types of view resolvers
+77. Spring mvc vs boot. What configs does boot do automatically ?
+78. What comes first, class or object ?
+79. What is collected by gc, object or reference ?
+80. In try catch finally, if exception is caught in catch then will code in finally be executed ?
+81. Differences between final, finally and finalize
+82. Put few values in a hashmap and iterate over it
+83. How to reverse a string and check if it is palindrome without using string reverse()
+84. All methods of string class
+85. Methods of object class
+86. Can we have try and finally block without catch block
+87. If system.exit() is called in try, will finally block execute ?
+88. Difference Between checked and unchecked exception
+89. What is app.module.ts ? How is configuration done in it ?
+90. What are services ?
+91. Best place to create a global variable in Angular
+92. What are observables
+93. What is a promise
+94. Advantages of hashmap over other maps
+95. What is viewresolver
+96. What is spring IOC container
+97. what is String constant pool
+98. Advantages of String pool
+99. What is Application context
+100. @RequestMapping
+101.  Servlet life 
+102. Db connection pool. Adv ?
+103. Adv of spring jpa over hibernate
+104. Oberver pattern
+105. Adv of java Timestamp class
+106. Why is system.gettimestamp() used
+107. Whats difference between inheritance in JavaScript and java
+108. Difference between apply and call in JavaScript inheritance
+109. Adv of rest over ajax
+110. Adv of xml over json
+111. How many max tables can be joined in mysql and mssql
+112. Why kafka and es is used in icx ? Why not just hit sql by grafana
+113. how to find middle of list without dividing length by two ? what if length is even ?
+114. there is matrix nxm, how many ways are there to reach the final point if the only allowed steps to take are --> and down
+115. 
+116. How to make list synchronized without using Collections.synchronizedlist method
+117. How to sort list based on String
+118. What are the different types in which beans can be created in spring
+119. How to maintain acid property in jpa
+120. How to maintain that proper transactions will happen when using jpa queries/methods
+121. How to improve performance of queries in sql
+122. Difference between static binding and dynamic binding
+123. Difference between clustered index and non clustered index
+124. Design pattern of Angular
+125. Types of services in Angular
+126. How to create pipes
+127. Difference between Http and HttpClient
+128. How to run a spring boot jar without eclipse
+129. In spring, how to inject object of class B in Class A ?
+130. Spring bean scopes
+131. How to create a final class
+132. Create a class Employee with date of joining as attribute and put its objects in an array list and sort on the basis of doj
+133. what is clonable interface and what is clone method
+134. why is string immutable
+135. How to use @transactional
+136. Is @transactional used on service level or repository level
+137. linux commands
+138. how to check if service is running on linux
+139. how to do configuration in spring mvc
+140. difference between String a = "abc"; and String a = new String("abc");
+150. try catch finally return in all blocks questions with and w/o exceptions
+151. difference between errors and exceptions
+152. UI - If user visits login page and then a documents page and then a reports page and then logs out. Next tym when he logs in, he should directly go to the page he last visited, in this case, reports page. How to acheive this use case ?
+153. difference between sessionStorage and localStorage
+154. What is serialization in java ? how to serialize object ?
+155. Ways to instantiate an object
+156. If we print an object, what will it show ?
+157. How to acheive thread safety in creating singleton object
+158. Comparator vs comparable
+159. throw vs throws
+160. Methods Overrriding with excetion handling with example
+161. Abstract class with constructor and what is the use of constructor if we dont instantiate abstract class.
+162. Can interface have no method in it
+163. What is the default capacity of hashamp and working of hashamp if it reaches its maximum capacity.
+164. What if we want to create custom object as key inside hashmap ,we have to do something in our code
+165. What is the difference between @Component,@Repository,@Service and @Controller
+166. What is the difference between IOC and Dependency Injection.
+167. What if we call singleton bean from prototype or prototype bean from singleton How many objects returned.
+168. what is bean life cycle in spring. 
+169. spring aop
+170.  difference between Agile and waterfull
+171.  determine from which floor will an egg break 
+172. How to configure maven in eclipse ? how to mention the location of artifactory server ?
+173. @RequestParam vs @Pathvariables
+174. @Controller vs @Restcontroller
+174. If parent A has method accDetails(long accNO) and child B has method accDetails(int accNO)... is it overriding or overloading
+175. There are 2 arraylists, one has 1000 elements and one has 999 elements. one is missing. How to to find that missing elements
+176. If class has 2 methods a(Object ob) and a(String ob) and it is called as a(null). Which one will be called
+177. If class has 3 methods a(Object ob), a(String ob) and a(Integer obj) ans it is called as a(null)...what will happen
+178. How to inject service in components Angular without including it in app.module.ts
+179. how to do parent child component routing
+180. window.onload vs jquery document.ready
+181. WAP to find first non repeating character in a string
+182. find space in string: if(str.indexOf(' ')>=0)
+183. If char in indexOf not present, it will return -1
+eg. 'string'.indexOf('a') = -1
+184. diff bw ng-build and ng-build --prod
+185. how to transfer data between parent to child and child to parent tags angular
+186. @ViewChild
+187. what are services and directives
+188. what are observables
+189. where can ng-template be used
+190. what are promises
+191. observables vs promises
+192. how to get data in parent when data is emitted from child @output variable
+193. what is --aot
+194. == vs ===
+195. What is new in java 8 garbage collection
+196. Garbage collection internal working
