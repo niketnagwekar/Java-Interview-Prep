@@ -2,6 +2,9 @@ package com.Core_JAVA_Interview_Questions.StringClassQusetions.StringPrograms;
 
 import java.util.HashMap;
 
+/*
+ * How To Find First Repeated And Non-Repeated Character In A String?
+ */
 public class FirstRepeatedNonRepeatedCharacter {
 
 	static void firstRepeatedNonRepeatedChar(String inputString) {
