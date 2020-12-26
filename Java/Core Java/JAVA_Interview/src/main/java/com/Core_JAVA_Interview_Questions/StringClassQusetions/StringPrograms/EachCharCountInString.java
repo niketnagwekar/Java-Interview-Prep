@@ -30,9 +30,9 @@ public class EachCharCountInString {
 
 	public static void main(String[] args) {
 
-		characterCount("Java J2EE Java JSP J2EE".trim().replaceAll(" ", ""));
+		characterCount("Java J2EE Java JSP J2EE".trim().replaceAll(" ", "").toLowerCase());
 
-		characterCount("All Is Well".trim());
+		characterCount("All Is Well".trim().toLowerCase());
 
 	}
 
