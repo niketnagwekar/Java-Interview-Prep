@@ -9,8 +9,8 @@ public class StringClassQuestions {
 		// String is a Class in java.lang package & is of derived type.
 
 		// How many ways you can create string objects
-		String s1 = new String("abc"); // by using new operator , objects created in HEAP
-		String s2 = "abc"; // object created in String pool using string literal
+//		String s1 = new String("abc"); // by using new operator , objects created in HEAP
+//		String s2 = "abc"; // object created in String pool using string literal
 
 		/*
 		 * String pool: String objects are most used data objects in Java. Hence, java
@@ -25,6 +25,11 @@ public class StringClassQuestions {
 		 * string constant pool with the same content, then it returns the reference of
 		 * that object. It doesn’t create a new object. If the content is different from
 		 * the existing objects then only it creates new object.
+		 * 
+		 * Where exactly string constant pool is located in the memory?
+		 * 
+		 * Ans: Inside the heap memory. JVM reserves some part of the heap memory to store
+		 * string objects created using string literals.
 		 */
 
 		// Difference between String , String Buffer & String Builder
