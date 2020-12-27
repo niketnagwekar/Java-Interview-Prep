@@ -104,6 +104,45 @@ public class StringClassQuestions {
 		 * application as only reference is returned and also saves the memory as no two
 		 * objects with same content are created.
 		 */
+		
+		int i = 5000;
+		 
+        double d = 6000.0006;
+ 
+        String s = "Java";
+ 
+        System.out.println(i+d+s);      //Output : 11000.0006Java
+ 
+        System.out.println(s+i+d);      //Output : Java50006000.0006
+ 
+        System.out.println(i+s+d); 
+        
+        // Interview Q
+        
+        String s1 = null;
+        
+        String s2 = null;
+ 
+        System.out.println(s1+s2);       //Output : nullnull
+ 
+        System.out.println("null"+"null");    //Output : nullnull
+ 
+        System.out.println(s1+"JAVA"+s2);
+        
+        
+        System.out.println("===================================================================");
+        
+        System.out.println("abc".charAt(0));          //Output : a
+        
+        System.out.println("abc".equalsIgnoreCase("ABC"));      //Output : true
+ 
+        System.out.println("abc".compareTo("abc"));         //Output : 0
+        
+        System.out.println("abc".compareTo("abcd"));		//Output : -1
+        
+        System.out.println("abcd".compareTo("abc"));       //Output : 1
+ 
+        System.out.println("abc".indexOf('c'));        //Output : 2
 
 	}
 
