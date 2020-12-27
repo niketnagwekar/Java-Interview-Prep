@@ -1,4 +1,4 @@
-package com.Core_JAVA_Interview_Questions.StringClassQusetions.StringPrograms;
+package com.Core_JAVA_Interview_Questions.StringClassQuestions.StringPrograms;
 
 /*
  * How To Remove White Spaces from String In Java?

@@ -1,4 +1,4 @@
-package com.Core_JAVA_Interview_Questions.StringClassQusetions;
+package com.Core_JAVA_Interview_Questions.StringClassQuestions;
 
 public class StringClassQuestions {
 
