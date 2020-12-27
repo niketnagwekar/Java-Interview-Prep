@@ -1,4 +1,4 @@
-package com.Core_JAVA_Interview_Questions.ExceptionHandlingQusetions;
+package com.Core_JAVA_Interview_Questions.ExceptionHandlingQuestions;
 
 public class ExceptionHandling {
 
