@@ -1,5 +1,6 @@
 package com.Core_JAVA_Interview_Questions.CollectionQuestions;
 
+import java.util.Enumeration;
 import java.util.Vector;
 
 public class VectorDemo {
@@ -46,8 +47,33 @@ public class VectorDemo {
 
 		// Printing the elements of vector. notice that extra elements are removed.
 
-		System.out.println(vector);   //Output : [10, 20, 30]
+		System.out.println(vector); // Output : [10, 20, 30]
 
+		/*
+		 * You can traverse the vector using Enumeration object. Vector class has a
+		 * method called elements() which returns an Enumeration object consisting of
+		 * all elements of Vector.
+		 */
+		System.out.println("=======================================================================");
+		Enumeration<Integer> en = vector.elements();
+
+		while (en.hasMoreElements()) {
+			Integer integer = (Integer) en.nextElement();
+			System.out.println(integer);
+		}
+
+		/*
+		 * Vector class has separate methods to retrieve first and last element of
+		 * vector object. You will not find these methods in ArrayList class.
+		 * firstElement() retrieves first element and lastElement() method retrieves
+		 * last element of the vector.
+		 */
+		
+		
+		System.out.println("=======================================================================");
+		
+		System.out.println(vector.firstElement());
+		System.out.println(vector.lastElement());
 	}
 
 }
