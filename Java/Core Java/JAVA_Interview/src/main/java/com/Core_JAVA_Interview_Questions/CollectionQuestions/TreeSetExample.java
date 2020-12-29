@@ -13,6 +13,7 @@ public class TreeSetExample {
 		// Adding elements to TreeSet
 
 		set.add(20);
+//		set.add(null);    //It will throw NullPointerException
 
 		set.add(10);
 
