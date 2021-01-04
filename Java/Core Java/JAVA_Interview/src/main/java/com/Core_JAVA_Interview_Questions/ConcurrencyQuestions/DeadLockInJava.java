@@ -35,6 +35,8 @@ public class DeadLockInJava {
 			e.printStackTrace();
 		}
 
+		// Detect deadlock in example
+
 		ThreadMXBean bean = ManagementFactory.getThreadMXBean();
 
 		long[] ids = bean.findMonitorDeadlockedThreads();
